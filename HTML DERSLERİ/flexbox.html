@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .contamier{
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            height: 80vh;
+            background-color: rgb(251, 255, 0);
+    
+        }
+        .blackbox{
+             
+            width: 140px;
+            height:140px;
+            background-color: black;
+            order:2;
+            flex-grow: 1;
+        }
+        .redbox{
+            width: 140px;
+            height:140px;
+           background-color: red;   
+           order: 1;
+           flex-grow: 1;
+        } 
+    </style>
+</head>
+<body>
+    <div class="contamier">
+        <div class="blackbox"></div>
+        <div class="redbox"></div>
+
+    </div>
+    
+</body>
+</html>

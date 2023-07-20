@@ -1,0 +1,58 @@
+*{
+    font-family: 'Tektur', cursive;
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-image:url("/background/BACKGROUND.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.Login-form{
+   background:rgba(0,0,0,0.7);
+   min-width: 500px;
+   min-height: 240px;
+   color:whitesmoke;
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+}
+h1{
+  text-transform: uppercase;
+}
+.tbox{
+    padding: 8px;
+    margin-top:8px;
+    border-bottom: 1 px solid white;
+    outline: none;
+    border: none;
+    background: none;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 5px;
+}
+.btn{
+  font-size: 30px;
+  color:none;
+  margin-top :25px;
+  width: 180px;
+  height: 80px;
+  padding:0;
+  background-color: white;
+  outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.75s;
+}
+.btn:hover{
+  background-color:transparent;
+  font-size:30px;
+  color:white;
+  border: 1px solid white;
+  
+
+}
